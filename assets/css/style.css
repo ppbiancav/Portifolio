@@ -1,0 +1,115 @@
+body {
+    background-color: #2B2931;
+    color: #e5e9ef;
+
+
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"]{
+    height: 58px;
+    width: 50%;
+    background-color: #C9A134;
+    color: white;
+    font-weight: bold;
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+
+h1{
+    font-size: 35px;
+    line-height: 15px;
+
+}
+
+span{
+    color: #5f6e88;
+}
+
+/* .aviso{
+    font-size: 40px;
+    line-height: 15px;
+} */
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+.gif {
+    /* background-image: url('https://img3.pillowfort.social/posts/49410a45b6440649056c.gif'); */
+    background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://i.pinimg.com/originals/d6/05/db/d605dbf10862f5ccbfdc6242e8a150ca.gif");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+
+/* .gif {
+    content: '';
+
+    width: inherit;
+    height: inherit;
+    position: fixed;
+    inset: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://img3.pillowfort.social/posts/49410a45b6440649056c.gif");
+    background-repeat: no-repeat;
+    width: 100hw;
+} */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+img {
+    width: 350px;
+}
+
+.logo {
+    width: 200px;
+}
+
+li {
+    display: inline-block;
+    margin: 30px;
+}
+
+a {
+    color: #e5e9ef;
+}
+
+a:hover {
+    color: #f6b609;
+    transition: 0.3s all;
+}
+
+#Inscreva-se-btn:hover {
+    border-radius: 12px;
+    border: #f6b609;
+    border-style: solid;
+    padding: 5px;
+}
+
+/* .container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+} */
